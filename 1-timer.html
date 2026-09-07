@@ -12,17 +12,22 @@
       referrerpolicy="no-referrer"
     />
     <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/rolldown-runtime-Bh1tDfsg.js">
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-Dezn_h7o.js">
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BBBXFaRP.js">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CveviJq_.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DbyuTEdk.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-DaVylI4E.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-BDX6aR9O.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-Cimw7FQl.css">
   </head>
   <body>
     <div class="container">
       <p><a href="index.html">Go back</a></p>
 
-      <input type="text" id="datetime-picker" />
-      <button type="button" data-start>Start</button>
+      <div class="datetime">
+        <input type="text" id="datetime-picker" class="datetime-picker" />
+        <button type="button" class="timer-btn" data-start disabled>
+          Start
+        </button>
+      </div>
 
       <div class="timer">
         <div class="field">
