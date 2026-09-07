@@ -4,10 +4,47 @@
   margin: auto;
 }
 
+.datetime {
+  display: flex;
+  gap: 8px;
+}
+
+.datetime-picker {
+  height: 40px;
+  width: 100%;
+}
+
+.timer-btn {
+  height: 40px;
+  width: 75px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4e75ff;
+
+  font-family: Montserrat;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
+
+button:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
 .timer {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  margin-top: 32px;
 }
 
 .field {
