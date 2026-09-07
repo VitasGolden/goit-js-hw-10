@@ -53,6 +53,9 @@ startBtn.addEventListener('click', () => {
     if (diff <= 0) {
       clearInterval(intervalId);
       updateTimerInterface({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+
+      datetimePicker.disabled = false;
+
       return;
     }
 
